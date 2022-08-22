@@ -1,0 +1,33 @@
+.color-1{
+    color: #5E1F13;
+
+}
+.color-2{
+    color: #faaf40;
+}
+.card{
+    border-color: #faaf40;
+}
+.w-85{
+    width: 85%;
+}
+
+
+.product-item-content {
+    border: 1px solid #faaf40;
+    border-radius: 3px;
+    margin: .5rem;
+    text-align: center;
+    padding: 2rem 0;
+}
+.product-image {
+    width: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
+}
+.hei{
+    height: 150px;
+}
+.font{
+    font-family: 'Romelio Sans', sans-serif;
+
+}

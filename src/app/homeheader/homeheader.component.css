@@ -1,0 +1,66 @@
+.header{
+    font-family: 'Romelio Sans', sans-serif;
+   
+}
+.color-1{
+    color: #5E1F13;
+
+}
+.color-2{
+    color: #faaf40;
+}
+.bg-1{
+    background-color: gainsboro;
+
+}
+.bg-2{
+    background-color: #faaf40;
+}
+.border-orange{
+    border: 1px solid #faaf40 !important;
+
+}
+.product-item-content {
+    border: 1px solid #faaf40 !important;
+    border-radius: 3px;
+    margin: .5rem;
+    text-align: center;
+    padding: 2rem 0;
+}
+.product-image {
+    width: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
+}
+/* .bg-o{
+    background-image: url(../../assets/wa.svg);
+} */
+
+.w-85{
+    width: 85%;
+}
+
+.btn-outline-light {
+    --bs-btn-color: black !important;
+    --bs-btn-border-color: #faaf40 !important;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #faaf40 !important;
+    --bs-btn-hover-border-color: #faaf40 !important;
+    --bs-btn-focus-shadow-rgb: 248,249,250;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #faaf40 !important;
+    --bs-btn-active-border-color: #faaf40 !important;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #faaf40 !important;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #faaf40 !important;
+    --bs-gradient: none;
+}
+.p-carousel .p-carousel-content .p-carousel-prev, .p-carousel .p-carousel-content .p-carousel-next{
+    color: aquamarine  !important;
+}
+:host .p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button{
+    background-color: red !important;
+}
+.c-whi{
+    background-color: #F9F9F9;
+}

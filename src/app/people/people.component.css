@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: antiquewhite;
+    /* background-image: linear-gradient(355deg,#34495e 0%, #29524a 74%  ); */
+    background-image: url(../../assets/png-transparent-coffee-beans-illustration-coffee-cup-cafe-coffee-bean-coffee-beans-brown-food-web-design-thumbnail.png);
+}
+#loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #34495e !important;
+    z-index: 1000000;
+    opacity: 1;
+    overflow: hidden;
+    text-align: center;
+}
+div.one{
+    width: 8vmax;
+    height: 8vmax;
+    border-right: 4px solid white;
+    border-radius: 100%;
+    animation: spinRight 800ms linear infinite;
+}
+div.one:before,
+div.one:after{
+    content: '';
+    width: 6vmax;
+    height: 6vmax;
+    display: block;
+    position: absolute;
+    top: calc(50% - 3vmax);
+    left: calc(50% - 3vmax);
+    border-left: 3px solid white;
+    border-radius: 100%;
+    animation: spinRight 800ms linear infinite;
+
+
+
+
+}
+div.one:after{
+    width: 4vmax;
+    height: 4vmax;
+    top: calc(50% - 2vmax);
+    left: calc(50% - 2vmax);
+    border: 0;
+    border-right: 2px solid white;
+    animation :none
+
+
+}
+
+@keyframes spinRight {
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg);
+    
+    }
+    
+}
+
+.center{
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.start ul li:nth-child(1){
+    background: url(../../assets/2.jpg) 65px top no-repeat !important;
+    padding-top: 189px !important;
+}
+
+.start ul li:nth-child(odd){
+    background: url(../../assets/1.jpg) 65px top no-repeat !important;
+    padding-top: 109px !important;
+}
+
+.start ul li:nth-child(even){
+    background: url(../../assets/1.jpg) 65px top no-repeat !important;
+    padding-top: 109px !important;
+}
